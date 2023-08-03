@@ -1,4 +1,4 @@
-#Node js Pipeline
+// Node js Pipeline
 pipeline{
     agent { label 'WS' }
      
