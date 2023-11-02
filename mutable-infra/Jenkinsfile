@@ -1,6 +1,6 @@
 @Library('roboshop-shared-library') _
 
-env.REPONAME ="terraform-vpc"
+env.REPONAME ="cart"
 env.TFDIR="mutable-infra"
 backendInfra()
 
