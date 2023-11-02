@@ -14,6 +14,7 @@
                  
         stage('terraform init'){
              steps {
+                cd mutable-infra
                 sh "terrafile -f env-${ENV}/Terrafile"
                 sh "terraform init -backend-config=env-${ENV}/${ENV}-backend.tfvars"
              }
