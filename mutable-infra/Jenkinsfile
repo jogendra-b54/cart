@@ -14,8 +14,8 @@
                  
         stage('terraform init'){
              steps {
-                script { git branch: 'main', url: 'https://github.com/jogendra-b54/cart.git' }
-                sh "cd mutable-infra/env-dev"
+                sh "git branch: 'main', url: 'https://github.com/jogendra-b54/cart.git' "
+                sh "cd mutable-infra"
                 sh "ls -ltr"
                 sh "pwd"
                 sh "terrafile -f env-${ENV}/Terrafile"
