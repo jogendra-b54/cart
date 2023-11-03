@@ -8,7 +8,7 @@ module "cart" {
   OD_INSTANCE_TYPE      = var.OD_INSTANCE_TYPE
   APP_PORT              = var.APP_PORT
   APP_VERSION           = var.APP_VERSION
-  LB_TYPE               = "internal"
+  #LB_TYPE               = "internal"
 }
 
 
