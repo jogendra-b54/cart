@@ -77,7 +77,7 @@ metadata:
   name: cart-ingress
 spec:
   rules:
-  - host: robot-frontend.b54-roboshop.online
+  - host: robot-frontend.b54-roboshop.in
     http:
       paths:
       - path: "/api/cart/"
